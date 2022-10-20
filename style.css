@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 900;
+}
+.top-margin {
+    background-color: #1F2937;
+    height: 500px;
+}
+.top-section {
+    display: flex;
+    flex-direction: column;
+    margin: auto 200px;
+    color: white;
+    height: 500px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 8px 0;
+}
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    gap: 16px;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    margin-bottom: 64px;
+    border-color: aqua;
+}
+.first-image, .second-image, .third-image, .fourth-image {
+    display: flex;
+    flex-direction: column;
+}
+.button, .button2 {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    width: 110px;
+    height: 35px;
+    margin: 16px 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+.title2 {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 8px;
+    margin: 16px;
+}
+img {
+    border: 4px;
+    border-color: black;
+}
+.subtext {
+    text-align: center;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+.container2 {
+    background-color: lightgray;
+    width:848px;
+    padding: 150px 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 25px;
+}
+.sign-up {
+    display: flex;
+    height: 100px;
+    width: 800px;
+    color: white;
+    background-color: #3882F6; 
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    margin: 100px 200px;
+}
+.action-title {
+    font-size: 20px;
+    font-weight: 900;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+.button2 {
+    border-color: white;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 250px;
+    padding: 50px 100%;
+    margin: 0px;
+}
